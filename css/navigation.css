@@ -1,0 +1,28 @@
+.navigation {
+    text-align: center;
+}
+
+
+.navigation__listItem {
+    margin: 15px 0;
+}
+
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0;
+    border-bottom: 5px double rgb(5, 33, 48);
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+
+.navigation__link {
+    color: rgb(58, 93, 104);
+    text-decoration: none;
+}
+
+
+.navigation__link:hover {
+    color: rgb(13, 33, 43);
+}
