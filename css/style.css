@@ -10,9 +10,8 @@
 
 
 .backgroundImage {
-    background: url(https://i.postimg.cc/3NmhBY3r/space.jpg);
+    background-image: url("../images/space.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-
