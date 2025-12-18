@@ -1,6 +1,6 @@
 # 🌍 Homepage
 
-Interaktywna strona o układzie słonczenym 
+Interaktywna strona o układzie słonecznym 
 
 ## 🚀 Technologia
 Projekt został stworzony przy użyciu:
