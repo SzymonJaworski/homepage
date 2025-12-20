@@ -1,8 +1,16 @@
-let button = document.querySelector(".js-button");
-let body = document.body;
-let buttonName = document.querySelector(".js-buttonName");
+{
+    const toggleBackground = () => {
+        const body = document.body;
+        const buttonName = document.querySelector(".js-buttonName");
 
-button.addEventListener("click", () => {
-    body.classList.toggle("backgroundImage");
-    buttonName.innerText = body.classList.contains("backgroundImage") ? "Usuń" : "Dodaj";
-});
+        body.classList.toggle("backgroundImage");
+        buttonName.innerText = body.classList.contains("backgroundImage") ? "Usuń" : "Dodaj";
+    };
+
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackground);
+    };
+
+    init();
+}
